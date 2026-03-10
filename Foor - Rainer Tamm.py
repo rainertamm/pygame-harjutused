@@ -16,9 +16,9 @@ while tootab:
     pygame.draw.rect(aken, (150, 150, 150), (100, 20, 100, 260), 2)
 
     # Kolm tuld (punane, kollane, roheline)
-    pygame.draw.circle(aken, (255, 0, 0), (150, 65), 35)
-    pygame.draw.circle(aken, (255, 255, 0), (150, 150), 35)
-    pygame.draw.circle(aken, (0, 255, 0), (150, 235), 35)
+    pygame.draw.circle(aken, (255, 0, 0), (150, 65), 39)
+    pygame.draw.circle(aken, (255, 255, 0), (150, 150), 39)
+    pygame.draw.circle(aken, (0, 255, 0), (150, 235), 39)
 
     pygame.display.flip()
 
