@@ -4,7 +4,7 @@ import sys
 pygame.init()
 
 # 1. Värvid
-L_GREEN = [153, 255, 153] # Taustavärv (nagu pildil)
+L_GREEN = [153, 255, 153] # Taustavärv
 RED = [255, 0, 0]         # Joone värv
 
 # 2. Ekraani seaded
@@ -17,7 +17,7 @@ screen.fill(L_GREEN)
 # 3. Funktsioon ruudustiku joonistamiseks
 def joonista_ruudustik(ruudu_suurus, ridade_arv, veergude_arv, joone_varv):
 
-    joone_paksus = 2 # Pildil tunduvad jooned veidi paksemad kui 1 piksel
+    joone_paksus = 2
 
     # Joonistame horisontaalsed jooned (read)
     # Alustame 0-st ja lisame ühe rea võrra juurde, et ka alumine joon joonistuks
@@ -39,7 +39,7 @@ def joonista_ruudustik(ruudu_suurus, ridade_arv, veergude_arv, joone_varv):
 # 4. Kutsun funktsiooni välja erinevate parameetritega
 # Pildil tundub ruudu suurus olevat umbes 20-30 pikslit.
 # Nii täidame kogu ekraani.
-joonista_ruudustik(20, 24, 32, RED)
+joonista_ruudustik(18, 24, 32, RED)
 
 pygame.display.flip()
 
