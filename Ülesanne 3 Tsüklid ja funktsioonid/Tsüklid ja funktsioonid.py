@@ -16,9 +16,7 @@ screen.fill(L_GREEN)
 
 # 3. Funktsioon ruudustiku joonistamiseks
 def joonista_ruudustik(ruudu_suurus, ridade_arv, veergude_arv, joone_varv):
-    """
-    Joonistab ekraanile ruudustiku.
-    """
+
     joone_paksus = 2 # Pildil tunduvad jooned veidi paksemad kui 1 piksel
 
     # Joonistame horisontaalsed jooned (read)
